@@ -22,3 +22,4 @@ setup(
     python_requires='>=3.12.2', # Specify minimum Python version
     entry_points={'console_scripts': ['infernommatic = infernommatic.cli']}
 )
+
