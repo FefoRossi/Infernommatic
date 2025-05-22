@@ -5,7 +5,7 @@ setup(
     version='0.0.1',
     packages=find_packages(), # Automatically finds your package directories
     install_requires=[
-        'pandas>=2.2.2'
+        'pandas>=2.2.2',
         'biopython>=1.84'
     ],
     author='Fernando Rossi',
