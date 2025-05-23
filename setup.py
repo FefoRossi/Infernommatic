@@ -4,7 +4,7 @@ setup(
     name='infernommatic',  # This is the name your users will use for 'import' and 'pip install'
     version='0.0.1',
     packages=find_packages(), # Automatically finds your package directories
-    package_data={"adapters": "data/adapters.fasta"},
+    package_data={"adapters": ["data/adapters.fasta"]},
     install_requires=[
         'pandas>=2.2.2',
         'biopython>=1.84'
