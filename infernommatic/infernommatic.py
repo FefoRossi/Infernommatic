@@ -190,7 +190,7 @@ def main():
 
     arg_parser.add_argument("-i", "--input_r1", help = "R1 fastq file -- either gzipped or not", required=True)
     arg_parser.add_argument("-I", "--input_r2", help = "R2 fastq file -- either gzipped or not", required=True)
-    arg_parser.add_argument("-adapt", "--adapters_file", help = "Fasta file with all adapters to be processed", default=pkg_resources.files("adapters.data").joinpath("adapters.fasta"))
+    arg_parser.add_argument("-adapt", "--adapters_file", help = "Fasta file with all adapters to be processed", default=pkg_resources.files("infernommatic.data").joinpath("adapters.fasta"))
     arg_parser.add_argument("-o", "--output_r1", help = "R1 fastq output file path", required=True)
     arg_parser.add_argument("-O", "--output_r2", help = "R2 fastq output file path", required=True)
     arg_parser.add_argument("-pct", "--sequence_pct", help = "percent_threshold': If an adaptor (or part) is within this percentage from an end, it's considered at the start/end of the sequence.", default=0.2, type=int)
